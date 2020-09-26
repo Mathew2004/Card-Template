@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    margin-left: 50px;
+}
+section .card{
+    height: 300px;
+    width: 280px;
+    padding: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fff;
+}
+section .card .card-img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+section .card .card-info{
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.card-info h2{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 10px;
+}
+.card-info p{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 10px;
+    font-weight: 100px;
+}
+.card-info .soical-icons{
+    padding: 50px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
